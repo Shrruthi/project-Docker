@@ -83,7 +83,7 @@
 		   	 <div class="wrap">
 		   	<div class="footer-left">
 		   			<ul>
-						<li><a href="index.html">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 
 						<li><a href="contact.php">contact</a></li>
 					</ul>
