@@ -13,7 +13,7 @@ $docaddress=$_POST['clinicaddress'];
 $docfees=$_POST['docfees'];
 $doccontactno=$_POST['doccontact'];
 $docemail=$_POST['docemail'];
-$password=md5($_POST['npass']);
+$password=$_POST['npass'];
 $sql=mysqli_query($bd , "insert into doctors(specilization,doctorName,address,docFees,contactno,docEmail,password) values('$docspecialization','$docname','$docaddress','$docfees','$doccontactno','$docemail','$password')");
 if($sql)
 {
